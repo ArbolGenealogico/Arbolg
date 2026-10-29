@@ -1,0 +1,1849 @@
+{
+  "personas": [
+    {
+      "id": "p1",
+      "nombre": "Andrés",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Alvarado",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 1902.77,
+        "y": -720.62
+      }
+    },
+    {
+      "id": "p2",
+      "nombre": "Cristopher André",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Alvarado",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 2020.25,
+        "y": -720.3
+      }
+    },
+    {
+      "id": "p3",
+      "nombre": "María Angelica",
+      "apellido_paterno": "Alvarado",
+      "apellido_materno": "Sánchez",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 2082.15,
+        "y": -998.82
+      }
+    },
+    {
+      "id": "p4",
+      "nombre": "Santiago Nicolas",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Alvarado",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 2149.71,
+        "y": -718.88
+      }
+    },
+    {
+      "id": "p5",
+      "nombre": "Andrés",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Vázquez",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 1961.28,
+        "y": -998.25
+      }
+    },
+    {
+      "id": "p6",
+      "nombre": "Ana Lilia",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Vázquez",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 1239.89,
+        "y": -1001.0
+      }
+    },
+    {
+      "id": "p7",
+      "nombre": "Alma Rosa",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Vásquez",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 1770.21,
+        "y": -1001.79
+      }
+    },
+    {
+      "id": "p8",
+      "nombre": "María Isabel",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Vázquez",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 1393.71,
+        "y": -996.24
+      }
+    },
+    {
+      "id": "p20",
+      "nombre": "Lucia",
+      "apellido_paterno": "Vázquez",
+      "apellido_materno": "Ramos",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 1350.69,
+        "y": -1506.0
+      }
+    },
+    {
+      "id": "p21",
+      "nombre": "Andrés",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Barrera",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 1811.1,
+        "y": -1506.51
+      }
+    },
+    {
+      "id": "p22",
+      "nombre": "Andrea Regina",
+      "apellido_paterno": "Pérez",
+      "apellido_materno": "Lepe",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 1638.87,
+        "y": -718.94
+      }
+    },
+    {
+      "id": "p23",
+      "nombre": "Alma Trinidad",
+      "apellido_paterno": "Pérez",
+      "apellido_materno": "Lepe",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 1772.85,
+        "y": -718.93
+      }
+    },
+    {
+      "id": "p24",
+      "nombre": "Ramon",
+      "apellido_paterno": "Pérez",
+      "apellido_materno": "Velasco",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 1645.0,
+        "y": -1003.11
+      }
+    },
+    {
+      "id": "p25",
+      "nombre": "Jesús",
+      "apellido_paterno": "Polanco",
+      "apellido_materno": "Mesa",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 1111.2,
+        "y": -996.37
+      }
+    },
+    {
+      "id": "p26",
+      "nombre": "Mauricio",
+      "apellido_paterno": "Polanco",
+      "apellido_materno": "Lepe",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 1069.95,
+        "y": -733.27
+      }
+    },
+    {
+      "id": "p28",
+      "nombre": "Briana Lucia",
+      "apellido_paterno": "Polanco",
+      "apellido_materno": "Lepe",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 1291.41,
+        "y": -734.84
+      }
+    },
+    {
+      "id": "p27",
+      "nombre": "Jesús Andrés",
+      "apellido_paterno": "Polanco",
+      "apellido_materno": "Lepe",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 1178.92,
+        "y": -730.72
+      }
+    },
+    {
+      "id": "p29",
+      "nombre": "Sergio Leonardo",
+      "apellido_paterno": "Lopez",
+      "apellido_materno": "Lepe",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 1447.28,
+        "y": -728.58
+      }
+    },
+    {
+      "id": "p30",
+      "nombre": "Sergio Leonardo",
+      "apellido_paterno": "López",
+      "apellido_materno": "?",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 1496.94,
+        "y": -998.82
+      }
+    },
+    {
+      "id": "p58",
+      "nombre": "María Isabel",
+      "apellido_paterno": "Ramos",
+      "apellido_materno": "Alonso",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 1368.08,
+        "y": -2244.66
+      }
+    },
+    {
+      "id": "p59",
+      "nombre": "Febronio",
+      "apellido_paterno": "Vázquez ?",
+      "apellido_materno": "?",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 1172.63,
+        "y": -2239.76
+      }
+    },
+    {
+      "id": "p9",
+      "nombre": "María de Jesus",
+      "apellido_paterno": "Barrera",
+      "apellido_materno": "Nuñez",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 2571.6,
+        "y": -2269.4
+      }
+    },
+    {
+      "id": "p10",
+      "nombre": "José María",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "García",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 2288.85,
+        "y": -2269.39
+      }
+    },
+    {
+      "id": "p11",
+      "nombre": "?",
+      "apellido_paterno": "Panduro",
+      "apellido_materno": "",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 1811.14,
+        "y": -2245.41
+      }
+    },
+    {
+      "id": "p12",
+      "nombre": "Ramón",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Barrera",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 3115.65,
+        "y": -1462.27
+      }
+    },
+    {
+      "id": "p13",
+      "nombre": "Clara",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Rosales",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 2589.45,
+        "y": -977.81
+      }
+    },
+    {
+      "id": "p14",
+      "nombre": "Reyna",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Rosales",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 2702.63,
+        "y": -977.18
+      }
+    },
+    {
+      "id": "p15",
+      "nombre": "Rogelio",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Rosales",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 2829.42,
+        "y": -980.31
+      }
+    },
+    {
+      "id": "p16",
+      "nombre": "Eduardo",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Rosales",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 2938.85,
+        "y": -977.76
+      }
+    },
+    {
+      "id": "p17",
+      "nombre": "Angelina",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Rosales",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 3039.31,
+        "y": -975.0
+      }
+    },
+    {
+      "id": "p32",
+      "nombre": "Antonio",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Rosales",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 3152.33,
+        "y": -976.57
+      }
+    },
+    {
+      "id": "p31",
+      "nombre": "María de Rosario",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Rosales",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 3269.91,
+        "y": -974.67
+      }
+    },
+    {
+      "id": "p33",
+      "nombre": "Laura",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Rosales",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 3383.94,
+        "y": -971.17
+      }
+    },
+    {
+      "id": "p34",
+      "nombre": "María Guadalupe",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Rosales",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 3499.45,
+        "y": -970.08
+      }
+    },
+    {
+      "id": "p35",
+      "nombre": "Rosalba",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Rosales",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 3629.64,
+        "y": -970.07
+      }
+    },
+    {
+      "id": "p36",
+      "nombre": "Antonia",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Rosales",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 3766.3,
+        "y": -967.96
+      }
+    },
+    {
+      "id": "p37",
+      "nombre": "Ramon",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Rosales",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 3891.53,
+        "y": -965.73
+      }
+    },
+    {
+      "id": "p38",
+      "nombre": "Agapita",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Barrera",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 4885.49,
+        "y": -1463.4
+      }
+    },
+    {
+      "id": "p18",
+      "nombre": "Agustin",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "?",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 4489.98,
+        "y": -966.05
+      }
+    },
+    {
+      "id": "p19",
+      "nombre": "Margarita",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 4605.62,
+        "y": -967.41
+      }
+    },
+    {
+      "id": "p39",
+      "nombre": "Leticia",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 4734.13,
+        "y": -965.84
+      }
+    },
+    {
+      "id": "p40",
+      "nombre": "Gloria",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 4854.28,
+        "y": -958.8
+      }
+    },
+    {
+      "id": "p41",
+      "nombre": "Elizabeth",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 4981.85,
+        "y": -957.87
+      }
+    },
+    {
+      "id": "p42",
+      "nombre": "Víctor",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 5105.55,
+        "y": -955.97
+      }
+    },
+    {
+      "id": "p43",
+      "nombre": "Elena",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 5218.93,
+        "y": -955.34
+      }
+    },
+    {
+      "id": "p44",
+      "nombre": "Juan Carlos",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 5330.04,
+        "y": -955.05
+      }
+    },
+    {
+      "id": "p45",
+      "nombre": "Silvia",
+      "apellido_paterno": "Lepe",
+      "apellido_materno": "Barrera",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 6059.66,
+        "y": -1467.05
+      }
+    },
+    {
+      "id": "p46",
+      "nombre": "Santos",
+      "apellido_paterno": "",
+      "apellido_materno": "Lepe",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 5858.58,
+        "y": -961.35
+      }
+    },
+    {
+      "id": "p47",
+      "nombre": "Sofia",
+      "apellido_paterno": "?",
+      "apellido_materno": "Lepe",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 5982.96,
+        "y": -950.88
+      }
+    },
+    {
+      "id": "p48",
+      "nombre": "Silvia",
+      "apellido_paterno": "",
+      "apellido_materno": "Lepe",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 6127.27,
+        "y": -955.29
+      }
+    },
+    {
+      "id": "p49",
+      "nombre": "Rey Mundo",
+      "apellido_paterno": "",
+      "apellido_materno": "Lepe",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 6260.65,
+        "y": -950.62
+      }
+    },
+    {
+      "id": "p50",
+      "nombre": "Irene",
+      "apellido_paterno": "",
+      "apellido_materno": "Lepe",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 6376.9,
+        "y": -950.3
+      }
+    },
+    {
+      "id": "p51",
+      "nombre": "Sergio",
+      "apellido_paterno": "Sánchez",
+      "apellido_materno": "Barrera",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 7039.22,
+        "y": -1539.76
+      }
+    },
+    {
+      "id": "p52",
+      "nombre": "Sergio",
+      "apellido_paterno": "Sánchez",
+      "apellido_materno": "",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 6920.03,
+        "y": -933.68
+      }
+    },
+    {
+      "id": "p53",
+      "nombre": "Jessica",
+      "apellido_paterno": "Sánchez",
+      "apellido_materno": "",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 7071.09,
+        "y": -930.97
+      }
+    },
+    {
+      "id": "p54",
+      "nombre": "Cesar",
+      "apellido_paterno": "Sánchez",
+      "apellido_materno": "",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 7205.37,
+        "y": -934.01
+      }
+    },
+    {
+      "id": "p55",
+      "nombre": "Miguel",
+      "apellido_paterno": "Sánchez",
+      "apellido_materno": "Barrera",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 6578.32,
+        "y": -1542.25
+      }
+    },
+    {
+      "id": "p56",
+      "nombre": "Clemencia",
+      "apellido_paterno": "Vázquez",
+      "apellido_materno": "Ramos",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 414.96,
+        "y": -1504.5
+      }
+    },
+    {
+      "id": "p57",
+      "nombre": "Roberto",
+      "apellido_paterno": "Fonseca",
+      "apellido_materno": "Vázquez",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 181.93,
+        "y": -1041.16
+      }
+    },
+    {
+      "id": "p60",
+      "nombre": "José Luis",
+      "apellido_paterno": "Fonseca",
+      "apellido_materno": "Vázquez",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 293.16,
+        "y": -1040.43
+      }
+    },
+    {
+      "id": "p61",
+      "nombre": "Claudia",
+      "apellido_paterno": "Fonseca",
+      "apellido_materno": "Vázquez",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 417.81,
+        "y": -1039.38
+      }
+    },
+    {
+      "id": "p62",
+      "nombre": "Víctor",
+      "apellido_paterno": "Fonseca",
+      "apellido_materno": "Vázquez",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 559.45,
+        "y": -1038.64
+      }
+    },
+    {
+      "id": "p63",
+      "nombre": "Javier",
+      "apellido_paterno": "Fonseca",
+      "apellido_materno": "Vázquez",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 698.84,
+        "y": -1038.47
+      }
+    },
+    {
+      "id": "p64",
+      "nombre": "Joel",
+      "apellido_paterno": "Fonseca",
+      "apellido_materno": "Vázquez",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 809.58,
+        "y": -1037.04
+      }
+    },
+    {
+      "id": "p65",
+      "nombre": "Sabino",
+      "apellido_paterno": "Aguilar",
+      "apellido_materno": "Ramos",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -1560.71,
+        "y": -1522.04
+      }
+    },
+    {
+      "id": "p66",
+      "nombre": "Julio",
+      "apellido_paterno": "Vázquez",
+      "apellido_materno": "Flores",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -1984.58,
+        "y": -1524.57
+      }
+    },
+    {
+      "id": "p67",
+      "nombre": "Isabel",
+      "apellido_paterno": "Vázquez",
+      "apellido_materno": "",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -2450.06,
+        "y": -1047.95
+      }
+    },
+    {
+      "id": "p68",
+      "nombre": "Rufino",
+      "apellido_paterno": "Vázquez",
+      "apellido_materno": "",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -2335.64,
+        "y": -1048.01
+      }
+    },
+    {
+      "id": "p69",
+      "nombre": "Felipe",
+      "apellido_paterno": "Vázquez",
+      "apellido_materno": "",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -2220.46,
+        "y": -1047.91
+      }
+    },
+    {
+      "id": "p70",
+      "nombre": "Félix",
+      "apellido_paterno": "Vázquez",
+      "apellido_materno": "",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -2109.33,
+        "y": -1046.81
+      }
+    },
+    {
+      "id": "p71",
+      "nombre": "Justa",
+      "apellido_paterno": "Vázquez",
+      "apellido_materno": "",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -2001.67,
+        "y": -1047.69
+      }
+    },
+    {
+      "id": "p72",
+      "nombre": "Hermelinda",
+      "apellido_paterno": "Vázquez",
+      "apellido_materno": "",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -1892.49,
+        "y": -1046.65
+      }
+    },
+    {
+      "id": "p73",
+      "nombre": "Josefina",
+      "apellido_paterno": "Vázquez",
+      "apellido_materno": "",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -1778.21,
+        "y": -1046.72
+      }
+    },
+    {
+      "id": "p74",
+      "nombre": "Engracia",
+      "apellido_paterno": "Vázquez",
+      "apellido_materno": "",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -1667.27,
+        "y": -1046.66
+      }
+    },
+    {
+      "id": "p75",
+      "nombre": "Daldin",
+      "apellido_paterno": "Vázquez",
+      "apellido_materno": "",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -1562.09,
+        "y": -1045.13
+      }
+    },
+    {
+      "id": "p76",
+      "nombre": "Imelda",
+      "apellido_paterno": "Vázquez",
+      "apellido_materno": "",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -1440.34,
+        "y": -1044.27
+      }
+    },
+    {
+      "id": "p77",
+      "nombre": "Juana",
+      "apellido_paterno": "Vázquez",
+      "apellido_materno": "",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -1295.22,
+        "y": -1043.67
+      }
+    },
+    {
+      "id": "p78",
+      "nombre": "Félix",
+      "apellido_paterno": "Vázquez",
+      "apellido_materno": "Flores",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -618.78,
+        "y": -1525.14
+      }
+    },
+    {
+      "id": "p79",
+      "nombre": "Lurdes",
+      "apellido_paterno": "Vázquez",
+      "apellido_materno": "",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -808.74,
+        "y": -1051.62
+      }
+    },
+    {
+      "id": "p80",
+      "nombre": "Alejandro",
+      "apellido_paterno": "Vázquez",
+      "apellido_materno": "",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -694.64,
+        "y": -1051.0
+      }
+    },
+    {
+      "id": "p81",
+      "nombre": "Armando",
+      "apellido_paterno": "Vázquez",
+      "apellido_materno": "",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -577.12,
+        "y": -1050.24
+      }
+    },
+    {
+      "id": "p82",
+      "nombre": "Guadalupe",
+      "apellido_paterno": "Vázquez",
+      "apellido_materno": "",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -455.2,
+        "y": -1049.84
+      }
+    },
+    {
+      "id": "p83",
+      "nombre": "María",
+      "apellido_paterno": "Vázquez",
+      "apellido_materno": "Flores",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -136.51,
+        "y": -1524.57
+      }
+    },
+    {
+      "id": "p84",
+      "nombre": "Olga",
+      "apellido_paterno": "?",
+      "apellido_materno": "Vázquez",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -221.43,
+        "y": -1046.04
+      }
+    },
+    {
+      "id": "p85",
+      "nombre": "Dominga",
+      "apellido_paterno": "",
+      "apellido_materno": "Vázquez",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -46.93,
+        "y": -1045.87
+      }
+    },
+    {
+      "id": "p86",
+      "nombre": "Irene",
+      "apellido_paterno": "Vázquez",
+      "apellido_materno": "Flores",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": -1112.74,
+        "y": -1525.82
+      }
+    },
+    {
+      "id": "p87",
+      "nombre": "?",
+      "apellido_paterno": "Flores",
+      "apellido_materno": "",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 867.17,
+        "y": -2238.55
+      }
+    },
+    {
+      "id": "p88",
+      "nombre": "?",
+      "apellido_paterno": "Aguilar",
+      "apellido_materno": "",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 441.44,
+        "y": -2246.9
+      }
+    },
+    {
+      "id": "p89",
+      "nombre": "?",
+      "apellido_paterno": "Rosales",
+      "apellido_materno": "",
+      "genero": "F",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 3377.66,
+        "y": -1460.86
+      }
+    },
+    {
+      "id": "p90",
+      "nombre": "?",
+      "apellido_paterno": "Fonseca",
+      "apellido_materno": "",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 624.49,
+        "y": -1504.96
+      }
+    },
+    {
+      "id": "p91",
+      "nombre": "?",
+      "apellido_paterno": "Sánchez",
+      "apellido_materno": "",
+      "genero": "M",
+      "notas": "",
+      "eventos": [],
+      "posicion": {
+        "x": 3646.85,
+        "y": -2268.94
+      }
+    }
+  ],
+  "relaciones": [
+    {
+      "id": "r1",
+      "origen": "p3",
+      "destino": "p1",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r2",
+      "origen": "p3",
+      "destino": "p2",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r3",
+      "origen": "p3",
+      "destino": "p4",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r4",
+      "origen": "p5",
+      "destino": "p3",
+      "tipo": "pareja"
+    },
+    {
+      "id": "r5",
+      "origen": "p5",
+      "destino": "p1",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r6",
+      "origen": "p5",
+      "destino": "p4",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r7",
+      "origen": "p5",
+      "destino": "p2",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r29",
+      "origen": "p21",
+      "destino": "p20",
+      "tipo": "pareja"
+    },
+    {
+      "id": "r30",
+      "origen": "p21",
+      "destino": "p8",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r31",
+      "origen": "p21",
+      "destino": "p7",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r32",
+      "origen": "p21",
+      "destino": "p6",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r33",
+      "origen": "p20",
+      "destino": "p6",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r34",
+      "origen": "p20",
+      "destino": "p7",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r35",
+      "origen": "p20",
+      "destino": "p8",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r36",
+      "origen": "p21",
+      "destino": "p5",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r37",
+      "origen": "p20",
+      "destino": "p5",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r40",
+      "origen": "p24",
+      "destino": "p7",
+      "tipo": "pareja"
+    },
+    {
+      "id": "r41",
+      "origen": "p24",
+      "destino": "p22",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r42",
+      "origen": "p24",
+      "destino": "p23",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r43",
+      "origen": "p7",
+      "destino": "p23",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r44",
+      "origen": "p7",
+      "destino": "p22",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r45",
+      "origen": "p25",
+      "destino": "p26",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r47",
+      "origen": "p25",
+      "destino": "p28",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r48",
+      "origen": "p6",
+      "destino": "p26",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r50",
+      "origen": "p6",
+      "destino": "p28",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r46",
+      "origen": "p25",
+      "destino": "p27",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r49",
+      "origen": "p6",
+      "destino": "p27",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r51",
+      "origen": "p30",
+      "destino": "p29",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r52",
+      "origen": "p8",
+      "destino": "p29",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r95",
+      "origen": "p59",
+      "destino": "p20",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r96",
+      "origen": "p58",
+      "destino": "p20",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r9",
+      "origen": "p12",
+      "destino": "p13",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r10",
+      "origen": "p12",
+      "destino": "p14",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r11",
+      "origen": "p12",
+      "destino": "p15",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r12",
+      "origen": "p12",
+      "destino": "p16",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r13",
+      "origen": "p12",
+      "destino": "p17",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r14",
+      "origen": "p12",
+      "destino": "p32",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r15",
+      "origen": "p12",
+      "destino": "p31",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r16",
+      "origen": "p12",
+      "destino": "p33",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r17",
+      "origen": "p12",
+      "destino": "p34",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r18",
+      "origen": "p12",
+      "destino": "p35",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r19",
+      "origen": "p12",
+      "destino": "p36",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r20",
+      "origen": "p12",
+      "destino": "p37",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r8",
+      "origen": "p38",
+      "destino": "p18",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r21",
+      "origen": "p38",
+      "destino": "p19",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r22",
+      "origen": "p38",
+      "destino": "p39",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r23",
+      "origen": "p38",
+      "destino": "p40",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r24",
+      "origen": "p38",
+      "destino": "p41",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r25",
+      "origen": "p38",
+      "destino": "p42",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r26",
+      "origen": "p38",
+      "destino": "p43",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r27",
+      "origen": "p38",
+      "destino": "p44",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r28",
+      "origen": "p45",
+      "destino": "p46",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r38",
+      "origen": "p45",
+      "destino": "p47",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r39",
+      "origen": "p45",
+      "destino": "p48",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r53",
+      "origen": "p45",
+      "destino": "p49",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r54",
+      "origen": "p45",
+      "destino": "p50",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r55",
+      "origen": "p51",
+      "destino": "p52",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r56",
+      "origen": "p51",
+      "destino": "p53",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r57",
+      "origen": "p51",
+      "destino": "p54",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r59",
+      "origen": "p10",
+      "destino": "p12",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r60",
+      "origen": "p10",
+      "destino": "p38",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r61",
+      "origen": "p10",
+      "destino": "p45",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r62",
+      "origen": "p9",
+      "destino": "p51",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r63",
+      "origen": "p9",
+      "destino": "p55",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r64",
+      "origen": "p56",
+      "destino": "p57",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r65",
+      "origen": "p56",
+      "destino": "p60",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r66",
+      "origen": "p56",
+      "destino": "p61",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r67",
+      "origen": "p56",
+      "destino": "p62",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r68",
+      "origen": "p56",
+      "destino": "p63",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r69",
+      "origen": "p56",
+      "destino": "p64",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r70",
+      "origen": "p66",
+      "destino": "p67",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r71",
+      "origen": "p66",
+      "destino": "p68",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r72",
+      "origen": "p66",
+      "destino": "p69",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r73",
+      "origen": "p66",
+      "destino": "p70",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r74",
+      "origen": "p66",
+      "destino": "p71",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r75",
+      "origen": "p66",
+      "destino": "p72",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r76",
+      "origen": "p66",
+      "destino": "p73",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r77",
+      "origen": "p66",
+      "destino": "p74",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r78",
+      "origen": "p66",
+      "destino": "p75",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r79",
+      "origen": "p66",
+      "destino": "p76",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r80",
+      "origen": "p66",
+      "destino": "p77",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r81",
+      "origen": "p78",
+      "destino": "p79",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r82",
+      "origen": "p78",
+      "destino": "p80",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r83",
+      "origen": "p78",
+      "destino": "p81",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r84",
+      "origen": "p78",
+      "destino": "p82",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r85",
+      "origen": "p83",
+      "destino": "p84",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r86",
+      "origen": "p83",
+      "destino": "p85",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r87",
+      "origen": "p59",
+      "destino": "p56",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r88",
+      "origen": "p58",
+      "destino": "p56",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r89",
+      "origen": "p87",
+      "destino": "p66",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r90",
+      "origen": "p87",
+      "destino": "p83",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r91",
+      "origen": "p87",
+      "destino": "p78",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r92",
+      "origen": "p87",
+      "destino": "p86",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r93",
+      "origen": "p59",
+      "destino": "p66",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r94",
+      "origen": "p59",
+      "destino": "p78",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r97",
+      "origen": "p59",
+      "destino": "p83",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r98",
+      "origen": "p59",
+      "destino": "p86",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r99",
+      "origen": "p58",
+      "destino": "p65",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r100",
+      "origen": "p88",
+      "destino": "p65",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r58",
+      "origen": "p10",
+      "destino": "p21",
+      "tipo": "adoptivo"
+    },
+    {
+      "id": "r101",
+      "origen": "p9",
+      "destino": "p21",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r102",
+      "origen": "p11",
+      "destino": "p21",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r103",
+      "origen": "p90",
+      "destino": "p57",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r104",
+      "origen": "p90",
+      "destino": "p60",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r105",
+      "origen": "p90",
+      "destino": "p61",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r106",
+      "origen": "p90",
+      "destino": "p62",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r107",
+      "origen": "p90",
+      "destino": "p63",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r108",
+      "origen": "p90",
+      "destino": "p64",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r109",
+      "origen": "p91",
+      "destino": "p55",
+      "tipo": "biologico"
+    },
+    {
+      "id": "r110",
+      "origen": "p91",
+      "destino": "p51",
+      "tipo": "biologico"
+    }
+  ]
+}
