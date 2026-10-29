@@ -98,8 +98,8 @@
     .brand p { margin: 2px 0 0; color: var(--muted); font-size: 12px; }
     .toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 8px; }
     .workspace { flex: 1; min-width: 0; min-height: 0; display: grid; grid-template-columns: minmax(0,1fr) 280px; }
-    .graph-wrap { position: relative; min-width: 0; min-height: 620px; border-right: 1px solid var(--line); }
-    #graph { position: absolute; inset: 0; min-width: 0; min-height: 620px; overflow: hidden; background-color: #191919; background-image: radial-gradient(rgba(190,190,190,.12) 1px, transparent 1px); background-size: 22px 22px; }
+    .graph-wrap { position: relative; min-width: 0; height: 90vh; min-height: 620px; border-right: 1px solid var(--line); }
+    #graph { position: absolute; inset: 0; min-width: 0; min-height: 620px; overflow: hidden; background-color: #1e1e1e; }
     .zoom-controls { position: absolute; z-index: 1; top: 14px; right: 14px; display: flex; gap: 6px; }
     .zoom-controls button { min-width: 42px; padding: 0 12px; }
     .detail-panel { min-width: 0; padding: 22px 18px; background: #202020; }
@@ -116,7 +116,7 @@
 
     @media (max-width: 780px) {
       .workspace { grid-template-columns: 1fr; grid-template-rows: minmax(55vh,1fr) auto; }
-      .graph-wrap { min-height: 55vh; border-right: 0; border-bottom: 1px solid var(--line); }
+      .graph-wrap { height: 55vh; min-height: 55vh; border-right: 0; border-bottom: 1px solid var(--line); }
       #graph { min-height: 55vh; }
       .detail-panel { padding: 16px; }
       .detail-panel .legend { grid-template-columns: repeat(2,minmax(0,1fr)); }
@@ -226,7 +226,7 @@
     document.getElementById("zoom-out").addEventListener("click", () => {
       if (graph) graph.zoom({ level: Math.max(0.15, graph.zoom() * 0.8), renderedPosition: { x: graph.width() / 2, y: graph.height() / 2 } });
     });
-    document.getElementById("fit-graph").addEventListener("click", () => graph && graph.fit(undefined, 40));
+    document.getElementById("fit-graph").addEventListener("click", () => graph && graph.fit(undefined, 36));
 
     async function openFamily() {
       try {
@@ -256,14 +256,84 @@
         },
         position: fallbackPosition(person, index)
       }));
-      const edges = data.relaciones.map(relation => ({
-        data: {
-          id: relation.id,
-          source: relation.origen,
-          target: relation.destino,
-          relationType: relation.tipo
-        },
-        classes: relation.tipo
+      const parentRelations = data.relaciones.filter(relation =>
+        ["biologico", "adoptivo", "padrastro"].includes(relation.tipo)
+      );
+      const parentsByChild = new Map();
+      parentRelations.forEach(relation => {
+        if (!parentsByChild.has(relation.destino)) parentsByChild.set(relation.destino, new Map());
+        parentsByChild.get(relation.destino).set(`${relation.origen}\u0000${relation.tipo}`, {
+          id: relation.origen,
+          type: relation.tipo
+        });
+      });
+
+      const compareText = (first, second) => first < second ? -1 : first > second ? 1 : 0;
+      const compareParentSets = (first, second) => {
+        for (let index = 0; index < Math.min(first.length, second.length); index += 1) {
+          const idOrder = compareText(first[index].id, second[index].id);
+          if (idOrder) return idOrder;
+          const typeOrder = compareText(first[index].type, second[index].type);
+          if (typeOrder) return typeOrder;
+        }
+        return first.length - second.length;
+      };
+      const groupsByKey = new Map();
+      parentsByChild.forEach((parents, childId) => {
+        const sortedParents = [...parents.values()].sort((first, second) =>
+          compareText(first.id, second.id) || compareText(first.type, second.type)
+        );
+        const key = JSON.stringify(sortedParents);
+        if (!groupsByKey.has(key)) groupsByKey.set(key, { parents: sortedParents, children: [] });
+        groupsByKey.get(key).children.push(childId);
+      });
+
+      const familyGroups = [...groupsByKey.values()].sort((first, second) =>
+        compareParentSets(first.parents, second.parents)
+      );
+      const positionsById = new Map(nodes.map(node => [node.data.id, node.position]));
+      const edges = [];
+
+      familyGroups.forEach((family, index) => {
+        const children = family.children.sort(compareText);
+        if (children.length > 1) {
+          const typeCounts = new Map();
+          family.parents.forEach(parent => typeCounts.set(parent.type, (typeCounts.get(parent.type) || 0) + 1));
+          let dominantType = family.parents[0]?.type || "biologico";
+          typeCounts.forEach((count, type) => {
+            if (count > (typeCounts.get(dominantType) || 0)) dominantType = type;
+          });
+
+          const familyId = `fam-${index}`;
+          const parentPositions = family.parents.map(parent => positionsById.get(parent.id)).filter(Boolean);
+          const childPositions = children.map(childId => positionsById.get(childId)).filter(Boolean);
+          nodes.push({
+            data: { id: familyId, label: "" },
+            classes: "nodo-familia",
+            position: {
+              x: parentPositions.reduce((sum, position) => sum + position.x, 0) / parentPositions.length,
+              y: (Math.max(...parentPositions.map(position => position.y)) + Math.min(...childPositions.map(position => position.y))) / 2
+            }
+          });
+
+          family.parents.forEach(parent => edges.push({
+            data: { id: `${familyId}-p-${parent.id}`, source: parent.id, target: familyId },
+            classes: `${dominantType} entra-familia`
+          }));
+          children.forEach(childId => edges.push({
+            data: { id: `${familyId}-h-${childId}`, source: familyId, target: childId },
+            classes: dominantType
+          }));
+        } else {
+          children.forEach(childId => family.parents.forEach(parent => edges.push({
+            data: { id: `pc-${parent.id}-${childId}`, source: parent.id, target: childId },
+            classes: parent.type
+          })));
+        }
+      });
+      data.relaciones.filter(relation => relation.tipo === "pareja").forEach(relation => edges.push({
+        data: { id: relation.id, source: relation.origen, target: relation.destino },
+        classes: "pareja"
       }));
 
       return { nodes, edges };
@@ -337,21 +407,24 @@
       graph = cytoscape({
         container: document.getElementById("graph"),
         elements: [...nodes, ...edges],
-        layout: { name: "preset", fit: true, padding: 50 },
+        layout: { name: "preset", fit: true, padding: 36 },
         minZoom: 0.1,
         maxZoom: 3,
         wheelSensitivity: 0.2,
         boxSelectionEnabled: true,
         selectionType: "additive",
         style: [
-          { selector: "node", style: { "shape": "round-rectangle", "label": "data(label)", "text-wrap": "wrap", "text-max-width": 100, "font-size": 12, "text-valign": "center", "text-halign": "center", "color": "#edf3f5", "background-color": "#667982", "border-width": 2, "border-color": "#354a54", "width": 90, "height": 52 } },
-          { selector: 'node[genero = "M"]', style: { "background-color": "#70aee5", "border-color": "#3975a4" } },
-          { selector: 'node[genero = "F"]', style: { "background-color": "#ee8baf", "border-color": "#ab4f75" } },
-          { selector: "node:selected", style: { "border-width": 4, "border-color": "#72d6c1", "overlay-color": "#72d6c1", "overlay-opacity": 0.2 } },
-          { selector: "edge", style: { "curve-style": "taxi", "taxi-direction": "vertical", "width": 2, "opacity": 0.8, "line-color": "#72d6c1", "target-arrow-shape": "triangle", "target-arrow-color": "#72d6c1" } },
-          { selector: "edge.pareja", style: { "line-color": "#ee8baf", "target-arrow-shape": "none", "taxi-direction": "horizontal" } },
-          { selector: "edge.adoptivo", style: { "line-color": "#dfc16e", "line-style": "dashed", "target-arrow-color": "#dfc16e" } },
-          { selector: "edge.padrastro", style: { "line-color": "#a7b3ba", "line-style": "dotted", "target-arrow-color": "#a7b3ba" } },
+          { selector: "node", style: { "shape": "rectangle", "label": "data(label)", "text-wrap": "wrap", "text-max-width": 80, "font-size": 12, "text-valign": "center", "text-halign": "center", "color": "#f0f0f0", "background-color": "#7a7a7a", "border-width": 2, "border-color": "#4a4a4a", "width": 55, "height": 55 } },
+          { selector: 'node[genero = "M"]', style: { "background-color": "#4a90d9", "border-color": "#2f5f8f" } },
+          { selector: 'node[genero = "F"]', style: { "background-color": "#e07bb0", "border-color": "#a8477f" } },
+          { selector: "node:selected", style: { "border-width": 4, "border-color": "#ff5722" } },
+          { selector: "node.nodo-familia", style: { "shape": "ellipse", "width": 1, "height": 1, "background-opacity": 0, "border-width": 0, "label": "", "events": "no" } },
+          { selector: "edge", style: { "curve-style": "taxi", "taxi-direction": "vertical", "taxi-turn": "50%", "taxi-turn-min-distance": "10px", "width": 1.5, "opacity": 0.72 } },
+          { selector: "edge.biologico", style: { "line-color": "#2b7a78", "target-arrow-color": "#2b7a78", "target-arrow-shape": "triangle" } },
+          { selector: "edge.pareja", style: { "line-color": "#a83279", "target-arrow-shape": "none", "taxi-direction": "horizontal" } },
+          { selector: "edge.adoptivo", style: { "line-color": "#c9a227", "line-style": "dashed", "target-arrow-color": "#c9a227", "target-arrow-shape": "triangle" } },
+          { selector: "edge.padrastro", style: { "line-color": "#aaaaaa", "line-style": "dotted", "target-arrow-color": "#aaaaaa", "target-arrow-shape": "triangle" } },
+          { selector: "edge.entra-familia", style: { "target-arrow-shape": "none" } },
         ]
       });
       selectedIds = [];
